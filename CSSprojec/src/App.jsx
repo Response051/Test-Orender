@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import Form from "./form";
 import "./App.css";
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div>
-      <p>Hello world</p>
+      <Form />
     </div>
   );
 }
