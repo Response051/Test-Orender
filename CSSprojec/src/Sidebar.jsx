@@ -2,7 +2,7 @@ function Sidebar() {
   return (
     <section className="sidebar">
       <div className="sidebar-div">
-        <p>Social media</p>
+        <p>items</p>
         <ul>
           <li>
             <a href="#">Facebook</a>
@@ -13,27 +13,6 @@ function Sidebar() {
           <li>
             <a href="#">Instagram</a>
           </li>
-        </ul>
-      </div>
-      <div className="sidebar-div">
-        {" "}
-        <p>Home</p>
-        <ul>
-          <li>
-            <a href="#">Facebook</a>
-          </li>
-          <li>
-            <a href="#">Twitter</a>
-          </li>
-          <li>
-            <a href="#">Instagram</a>
-          </li>
-        </ul>
-      </div>
-      <div className="sidebar-div">
-        {" "}
-        <p>info</p>
-        <ul>
           <li>
             <a href="#">Phone number: 08137774051</a>
           </li>
@@ -42,6 +21,15 @@ function Sidebar() {
           </li>
           <li>
             <a href="#">site</a>
+          </li>
+          <li>
+            <a href="#">Facebook</a>
+          </li>
+          <li>
+            <a href="#">Twitter</a>
+          </li>
+          <li>
+            <a href="#">Instagram</a>
           </li>
         </ul>
       </div>

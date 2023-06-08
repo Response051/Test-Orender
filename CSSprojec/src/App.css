@@ -1,5 +1,5 @@
 .nav {
-  background-color: bisque;
+  /* background-color: bisque; */
   width: 100%;
   position: absolute;
   top: -1px;
@@ -25,7 +25,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: bisque;
+  /* background-color: bisque; */
 }
 
 .footer-div > p {
@@ -43,6 +43,26 @@
 .footer-div > ul > li > a {
   text-decoration: none;
 }
+
+.sidebar {
+  margin-top: 3rem;
+  display: inline-block;
+}
+.sidebar-div > p {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  line-height: 10px;
+}
+.sidebar-div > ul > li > a {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+.sidebar-div > ul > li {
+  margin-bottom: 10px;
+  list-style: none;
+}
 @media (max-width: 640px) {
   .ul-nav {
     display: flex;
@@ -57,5 +77,20 @@
   .footer {
     display: flex;
     flex-flow: row wrap;
+    margin-top: 20rem;
+    /* border: 2px solid #f79c24f3; */
+  }
+  .sidebar {
+    margin-top: 10rem;
+    /* border: 2px solid red; */
+  }
+  .sidebar-div > p {
+    margin-bottom: 3rem;
+  }
+  .sidebar-div > ul > li {
+    margin-bottom: 1rem;
+  }
+  .sidebar-div > ul > li > a {
+    font-size: 1rem;
   }
 }

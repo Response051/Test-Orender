@@ -1,5 +1,6 @@
 import Nav from "./Nav";
 import Footer from "./footer";
+import Sidebar from "./Sidebar";
 import "./App.css";
 
 function Form() {
@@ -8,6 +9,7 @@ function Form() {
       {" "}
       <Nav />
       <Footer />
+      <Sidebar />
     </nav>
   );
 }
