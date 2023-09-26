@@ -39,6 +39,7 @@
 }
 .footer-div > ul > li {
   margin-top: 10px;
+  color: blueviolet;
 }
 .footer-div > ul > li > a {
   text-decoration: none;

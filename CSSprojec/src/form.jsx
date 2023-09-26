@@ -7,9 +7,9 @@ function Form() {
   return (
     <nav>
       {" "}
-      <Nav />
       <Footer />
       <Sidebar />
+      <Nav />
     </nav>
   );
 }
